@@ -41,7 +41,7 @@ function getQuote() {
   // Write out the quote as HTML
   document.write("<p style='text-align: center;'>\"");
   document.write(quotes[i] + "\"");
-  document.write("<br /><em>- " + sources[i] + "</em><span class="blink">...</span>");
+  document.write("<br /><em>- " + sources[i] + "</em>");
   document.write("</p>");
 }
 // Stop hiding the script
