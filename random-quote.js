@@ -42,7 +42,7 @@ function getQuote() {
   sources[10] = "Yogi Berra"
     
   quotes[11] = "A house divided against itself cannot stand.",
-  sources[12] = "Abraham Lincoln"
+  sources[11] = "Abraham Lincoln"
     
   quotes[13] = "Difficulties increase the nearer we get to the goal.",
   sources[13] = "Johann Wolfgang von Goethe"
