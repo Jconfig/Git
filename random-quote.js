@@ -2,12 +2,11 @@ console.log('To get random quote from here in your website add "<script src="htt
 
 function getQuote() {
   // Create the arrays
-  var quotes = new Array(21);
-  var sources = new Array(21);
+  var quotes = new Array(20);
+  var sources = new Array(20);
 
   // Initialize the arrays with quotes
-  quotes[0] = "Optimism is the faith that leads to achievement.";
-  sources[0] = "Helen Keller";
+  
 
   quotes[1] = "If you don't like the road you're walking, " +
     "start paving another one.";
