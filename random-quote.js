@@ -1,9 +1,9 @@
-console.log('Hello World!');
+console.log('To get random quote from here in your website add <script src="https://git.joydeb.xyz/random-quote.js. Then add <script>getQuote=();</script> in body tag where you need to get it :)');
 
 function getQuote() {
   // Create the arrays
-  var quotes = new Array(9);
-  var sources = new Array(9);
+  var quotes = new Array(21);
+  var sources = new Array(21);
 
   // Initialize the arrays with quotes
   quotes[0] = "Optimism is the faith that leads to achievement.";
@@ -34,6 +34,39 @@ function getQuote() {
   
   quotes[8] = "A happy person is not a person in a certain set of circumstances, but rather a person with a certain set of attitudes.";
   sources[8] = "Hugh Downs";
+  
+  quotes[9] = "Genius is one percent inspiration and ninety-nine percent perspiration.",
+  sources[9] = "Thomas Edison"
+    
+  quotes[10] = "You can observe a lot just by watching.",
+  sources[10] = "Yogi Berra"
+    
+  quotes[11] = "A house divided against itself cannot stand.",
+  sources[12] = "Abraham Lincoln"
+    
+  quotes[13] = "Difficulties increase the nearer we get to the goal.",
+  sources[13] = "Johann Wolfgang von Goethe"
+    
+  quotes[14] = "Fate is in your hands and no one elses",
+  sources[14] = "Byron Pulsifer"
+    
+  quotes[15] = "Be the chief but never the lord.",
+  sources[15] = "Lao Tzu"
+    
+  quotes[16] = "Nothing happens unless first we dream.",
+  sources[16] = "Carl Sandburg"
+    
+  quotes[17] = "Well begun is half done.",
+  sources[17] = "Aristotle"
+    
+  quotes[18] = "Life is a learning experience, only if you learn.",
+  sources[18] = "Yogi Berra"
+    
+  quotes[19] = "Self-complacency is fatal to progress.",
+  sources[19] = "Margaret Sangster"
+    
+  quotes[20] = "Peace comes from within. Do not seek it without.",
+  sources[20] = "Buddha"
 
   // Get a random index into the arrays
   i = Math.floor(Math.random() * quotes.length);
@@ -41,7 +74,7 @@ function getQuote() {
   // Write out the quote as HTML
   document.write("<p style='text-align: center;'>\"");
   document.write(quotes[i] + "\"");
-  document.write("<br /><em>- " + sources[i] + "</em>");
+  document.write("<br /><em>-<b> " + sources[i] + "</b></em>");
   document.write("</p>");
 }
 // Stop hiding the script
