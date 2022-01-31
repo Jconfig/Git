@@ -1,5 +1,3 @@
-console.log('Interested to use it in your website add: <script src="https://git.joydeb.xyz/random-quote.js"></script> -between head tag .
-And also add: <script>getQuote=();</script> -between body tag where you want to show it :)');
 
 function getQuote() {
   // Create the arrays
