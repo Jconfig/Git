@@ -1,4 +1,4 @@
-console.log('To get random quote from here in your website add "<script src="https://git.joydeb.xyz/random-quote.js"></script>" between head tag . And also add "<script>getQuote=();</script>" between body tag where you need to show it :)');
+console.log('To get random quote from there to your website add "<script src="https://git.joydeb.xyz/random-quote.js"></script>" between head tag . And also add "<script>getQuote=();</script>" between body tag where you need to show it :)');
 
 function getQuote() {
   // Create the arrays
