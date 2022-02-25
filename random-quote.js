@@ -235,6 +235,75 @@ function getQuote() {
   
   quotes[77] = "Act as if it were impossible to fail.";
   sources[77] = "Dorothea Brande";
+
+  quotes[78] = "What you give is what you get.";
+  sources[78] = "Byron Pulsifer";
+    
+  quotes[79] = "We can only learn to love by loving.";
+  sources[79] = "Iris Murdoch";
+      
+  quotes[80] = "Life is change. Growth is optional. Choose wisely.";
+  sources[80] = "Karen Clark";
+      
+  quotes[81] = "You'll see it when you believe it.";
+  sources[81] = "Wayne Dyer";
+      
+  quotes[82] = "Today is the tomorrow we worried about yesterday.";
+  sources[82] = "Unknown";
+      
+  quotes[83] = "It's easier to see the mistakes on someone else's paper.";
+  sources[83] = "Unknown";
+      
+  quotes[84] = "Every man dies. Not every man really lives.";
+  sources[84] = "Unknown";
+      
+  quotes[85] = "To lead people walk behind them.";
+  sources[85] = "Lao Tzu";
+      
+  quotes[86] = "Having nothing, nothing can he lose.";
+  sources[86] = "William Shakespeare";
+      
+  quotes[87] = "Trouble is only opportunity in work clothes.";
+  sources[87] = "Henry J. Kaiser";
+      
+  quotes[88] = "A rolling stone gathers no moss.";
+  sources[88] = "Publilius Syrus";
+      
+  quotes[89] = "Ideas are the beginning points of all fortunes.";
+  sources[89] = "Napoleon Hill";
+      
+  quotes[90] = "Everything in life is luck.";
+  sources[90] = "Donald Trump"
+      
+  quotes[91] = "Doing nothing is better than being busy doing nothing.";
+  sources[91] = "Lao Tzu";
+      
+  quotes[92] = "Trust yourself. You know more than you think you do.";
+  sources[92] = "Benjamin Spock";
+      
+  quotes[93] = "Study the past, if you would divine the future.";
+  sources[93] = "Confucius";
+      
+  quotes[94] = "The day is already blessed, find peace within it.";
+  sources[94] = "Unknown";
+      
+  quotes[95] = "From error to error one discovers the entire truth.";
+  sources[95] = "Sigmund Freud";
+      
+  quotes[96] = "Well done is better than well said.";
+  sources[96] = "Benjamin Franklin";
+      
+  quotes[97] = "Bite off more than you can chew, then chew it.";
+  sources[97] = "Ella Williams";
+      
+  quotes[98] = "Work out your own salvation. Do not depend on others.";
+  sources[98] = "Buddha";
+      
+  quotes[99] = "One today is worth two tomorrows.";
+  sources[99] = "Benjamin Franklin";
+      
+  quotes[100] = "Once you choose hope, anythings possible.";
+  sources[100] = "Christopher Reeve";
   
 //  quotes[0] = "
 //  sources[0] = "
