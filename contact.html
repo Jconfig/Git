@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://git.joydeb.xyz/random-quote.js"></script>
+  <title>Contact Form</title>
+</head>
+
+<body>
+  <div class="container">
+<center>
+  <h4>
+    <i>Having Trouble?<br />Then here is a form for You :)</i>
+    </h4>
+    </center>
+<fieldset>
+<legend><p>&#128336;</p></legend>
+  <form action="https://mail2.joydeb.xyz/send.php" method="post" name="form" class="form-box container">
+    <label for="name" class="">Name :</label>
+    <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+    <br />
+    <label for="email" class="">Email ID :</label>
+    <input type="email" name="email" class="select input" placeholder="Enter Your Email" required>
+    <br />
+    <label for="message" class="">Message :</label>
+    <textarea name="msg" class="input" placeholder="Enter Your Message Here..." required></textarea>
+    <br />
+    <label for="att" class="">Attachment Link :</label>
+    <input type="text" name="att" class="input" placeholder="Please! Insert relevant attachment link">
+    <input type="text" id="paste-box" name="url" placeholder="Will be captured" required="" readonly="" style="display: none;" />
+    <div class="modal-footer">
+      <button type="submit" name="submit" value="Send" class="input" onclick="Copy();">Send message</button>
+    </div>
+  </form>
+  </fieldset>
+  <script type="text/javascript">
+    function Copy() { var Url = document.getElementById("paste-box");
+      Url.value = window.location.href;
+      Url.focus();
+      Url.select();
+      document.execCommand("Copy"); }
+  </script>
+
+</body>
+
+</html>
