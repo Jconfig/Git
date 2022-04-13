@@ -1,48 +1,4 @@
-function getQuote() {
-  // Create the arrays
-  var quotes = new Array(200);
-  var sources = new Array(200);
-
-  // Initialize the arrays with quotes
-  quotes[0] = "Optimism is the faith that leads to achievement.";
-  sources[0] = "Helen Keller";
-
-  quotes[1] = "If you don't like the road you're walking, Start paving another one.";
-  sources[1] = "Dolly Parton";
-
-  quotes[2] = "The most difficult thing is the decision to act, The rest is merely tenacity.";
-  sources[2] = "Amelia Earhart";
-
-  quotes[3] = "What's another word for thesaurus?";
-  sources[3] = "Steven Wright";
-
-  quotes[4] = "Attitudes are a secret power working 24 hours a day for good or bad.";
-  sources[4] = "Unknown";
-
-  quotes[5] = "You can't always control circumstances. But you can control your own thoughts.";
-  sources[5] = "Charles Poppleston";
-
-  quotes[6] = "There is nothing either good or bad thinking makes it so";
-  sources[6] = "William Shakespeare";
-
-  quotes[7] = "Better keep yourself clean and bright; you are the window through which you must see the world.";
-  sources[7] = "George Bernard Shaw";
-  
-  quotes[8] = "A happy person is not a person in a certain set of circumstances, but rather a person with a certain set of attitudes.";
-  sources[8] = "Hugh Downs";
-  
-  quotes[9] = "Genius is one percent inspiration and ninety-nine percent perspiration.";
-  sources[9] = "Thomas Edison";
-    
-  quotes[10] = "You can observe a lot just by watching.";
-  sources[10] = "Yogi Berra";
-    
-  quotes[11] = "A house divided against itself cannot stand.";
-  sources[11] = "Abraham Lincoln";
-    
-  quotes[13] = "Difficulties increase the nearer we get to the goal.";
-  sources[13] = "Johann Wolfgang von Goethe";
-    function getQuote() {
+  function getQuote() {
   // Create the arrays
   var quotes = new Array(200);
   var sources = new Array(200);
