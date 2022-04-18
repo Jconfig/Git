@@ -1,7 +1,7 @@
   function getQuote() {
     // Create the arrays
-    var quotes = new Array(300);
-    var sources = new Array(300);
+    var quotes = new Array(750);
+    var sources = new Array(750);
 
     // Initialize the arrays with quotes
     quotes[0] = "Optimism is the faith that leads to achievement.";
