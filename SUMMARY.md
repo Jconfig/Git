@@ -1,4 +1,5 @@
 # Table of contents
 
-* [History](README.md)
+* [ℹ Home](README.md)
+* [History](<README (1).md>)
 * [Geography](geography.md)
