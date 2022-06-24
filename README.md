@@ -6,4 +6,6 @@ description: Default Page
 
 {% embed url="https://www.joydeb.xyz" %}
 
-{% embed url="https://jdxtech.blogspot.com/" %}
+{% content-ref url="current-affairs/" %}
+[current-affairs](current-affairs/)
+{% endcontent-ref %}
