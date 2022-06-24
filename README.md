@@ -1,8 +1,4 @@
----
-description: Default Page
----
-
-# ℹ Home
+# 🛖 Home
 
 {% embed url="https://www.joydeb.xyz" %}
 
