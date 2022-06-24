@@ -1,6 +1,7 @@
 # Table of contents
 
 * [ℹ Home](README.md)
+* [Page 1](page-1.md)
 
 ## Group 1
 
