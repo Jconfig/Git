@@ -12,7 +12,7 @@
 10. দি ইন্ডিয়ান ওয়ার অফ ইন্ডিপেন্ডেন্স- কে লিখেছেন? **বিনায়ক দামোদর সাভারকর**
 11. দা ফেডারেশন অফ ইন্ডিয়ান চেম্বার্স অফ কমার্স অ্যান্ড ইন্ডাস্ট্রি (FICCI) কত সালে গড়ে ওঠে? **১৯২৭**
 12. _"On the whole, it is difficult to avoid the conclusion that the so-called First National War of Independence of 1857 is neither first, nor national, nor a war of independence"_ -  কে বলেছেন? **ঐতিহাসিক আর সি মজুমদার**
-13. াaরখানায় শিশুশ্রম নিষিদ্ধ"- সংবিধানের কোন ধারায় উল্লেখিত? **আর্টিকল-২৪**
+13. কারখানায় শিশুশ্রম নিষিদ্ধ"- সংবিধানের কোন ধারায় উল্লেখিত? **আর্টিকল-২৪**
 14. টাক্কাভি( Taccavi) কী? **একধরনের কৃষিঋণ**
 15. ভারত স্বাধীন হওয়ার সময়ে কংগ্রেসের প্রেসিডেন্ট কে ছিলেন? **জে বি কৃপালনি**
 16. সংবিধানের ৪৪ নম্বর ধারায় কোন বিষয়টির উল্লেখ আছে? **অভিন্ন দেওয়ানি বিধি (ইউনিফর্ম সিভিল কোড)। **_**“The State shall endeavor to secure for citizens a uniform civil code throughout the territory of India”**_
