@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🛖 Home](README.md)
+  * [3 January 2022](home/3-january-2022.md)
 * [🌀 Current Affairs](current-affairs/README.md)
   * [🗓 2 January 2022](current-affairs/2-january-2022/README.md)
     * [🫂 মহান কাজের সাথে সম্পর্কিত মানুষ](current-affairs/2-january-2022/undefined.md)
