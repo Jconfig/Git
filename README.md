@@ -2,6 +2,6 @@
 
 {% embed url="https://www.joydeb.xyz" %}
 
-{% content-ref url="current-affairs/" %}
-[current-affairs](current-affairs/)
+{% content-ref url="home/current-affairs/" %}
+[current-affairs](home/current-affairs/)
 {% endcontent-ref %}
