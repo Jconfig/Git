@@ -6,6 +6,7 @@
     * [First News Papers, Journals & their Founder/Editors](home/3-january-2022/first-news-papers-journals-and-their-founder-editors.md)
     * [Longest And Largest](home/3-january-2022/longest-and-largest.md)
     * [Important Beaches in India](home/3-january-2022/important-beaches-in-india.md)
+  * [4 January 2022](home/4-january-2022.md)
 * [🌀 Current Affairs](current-affairs/README.md)
   * [🗓 2 January 2022](current-affairs/2-january-2022/README.md)
     * [🫂 মহান কাজের সাথে সম্পর্কিত মানুষ](current-affairs/2-january-2022/undefined.md)
