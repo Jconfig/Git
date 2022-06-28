@@ -16,4 +16,5 @@
     * [🗓 1 January 2022](home/current-affairs/1-january-2022/README.md)
       * [📘 Lucent Objective General Gk Bengali Version](home/current-affairs/1-january-2022/lucent-objective-general-gk-bengali-version.md)
       * [🔰 General Knowledge](home/current-affairs/1-january-2022/general-knowledge.md)
+* [🔰 General Knowledge](general-knowledge.md)
 * [🗃 Files](files.md)
