@@ -1,0 +1,14 @@
+#text {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+para {
+  text-align: left;
+  margin: 0;
+  text-transform: lowercase;
+  font-size: 10pt;
+  font-weight: 900;
+  width: 50%;
+  display: none;
+}
