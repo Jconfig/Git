@@ -379,9 +379,9 @@
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
           .then(response =>
-            if (response.redirected) {
-              window.location.href = 'http://www.example.com'
-            })
+          {
+            window.location.href = 'http://www.example.com'
+          })
           .catch(error => console.error('Error!', error.message))
       })
     </script>
