@@ -380,10 +380,10 @@
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
           .then(response => {
             if (response.redirected) {
-              window.location.replace("https://www.joydeb.xyz");
+              document.location.href = '/confirmation.html';
             }
           }))
-          .catch(error => console.error('Error!', error.message))
+      .catch(error => console.error('Error!', error.message))
       })
     </script>
     <script type="text/javascript">
