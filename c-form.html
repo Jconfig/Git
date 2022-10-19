@@ -378,12 +378,11 @@
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then(response => {
+          .then(response =>
             if (response.redirected) {
-              document.location.href = '/confirmation.html';
-            }
-          }))
-      .catch(error => console.error('Error!', error.message))
+              window.location.href = 'http://www.example.com'
+            })
+          .catch(error => console.error('Error!', error.message))
       })
     </script>
     <script type="text/javascript">
