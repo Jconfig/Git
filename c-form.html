@@ -9,8 +9,9 @@
   <meta name="author" content="Joydeb">
   <meta http-equiv="" content="">
   <meta charset="UTF-8">
-  <LINK rel="icon" href="https://www.joydeb.xyz/assets/favicon/joydeb.ico" type="image/x-icon">
-  <LINK rel="shortcut" href="https://www.joydeb.xyz/assets/favicon/joydeb.ico" type="image/x-icon">
+  <link rel="icon" href="https://www.joydeb.xyz/assets/favicon/joydeb.ico" type="image/x-icon">
+  <link rel="shortcut" href="https://www.joydeb.xyz/assets/favicon/joydeb.ico" type="image/x-icon">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=_turnstileCb" async defer></script>
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -355,10 +356,20 @@
         <label for="message">Your Message *</label>
         <textarea id="message" name="Message" placeholder="Please let me know your Message.." style="height:200px"></textarea>
         <input type="text" id="paste-box" name="URL" placeholder="It Will Be Auto Captured" required="" readonly="" style="display: none;" />
-
+        <div id="myWidget"></div>
         <input type="submit" value="Submit" onclick="Copy();">
       </fieldset>
     </form>
+    <script>
+      function _turnstileCb() {
+        console.debug('_turnstileCb called');
+    
+        turnstile.render('#myWidget', {
+          sitekey: '0x4AAAAAAAA62_BNvx-YP6SF',
+          theme: 'light',
+        });
+      }
+    </script>
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxby9MTRduFThcdrp-bO2zBfkd_hhdQJK4KDMQ9XlVs1gDKPHsy2z8bMA/exec'
       const form = document.forms['google-sheet']
