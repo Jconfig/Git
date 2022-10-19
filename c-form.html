@@ -379,10 +379,9 @@
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
           .then(response => {
-            if (response.redirected) {
-              window.location.href = www.joydeb.xyz;
+            if (response.redirect('https://www.joydeb.xyz');
             }
-          })
+          })))
           .catch(error => console.error('Error!', error.message))
       })
     </script>
