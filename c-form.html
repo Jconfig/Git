@@ -378,7 +378,11 @@
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then(response => alert("Thanks for Your Respond. Your query is successfully submitted."))
+          .then(response => {
+                if (response.redirected) {
+                  window.location.href = response.url;
+                }
+              })
           .catch(error => console.error('Error!', error.message))
       })
     </script>
