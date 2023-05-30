@@ -1,0 +1,91 @@
+.fixed-action-btn.spin-close .btn-large {
+
+  position: relative;
+
+}
+
+.fixed-action-btn.spin-close .btn-large i {
+
+  opacity: 1;
+
+  transition: transform 0.3s, opacity 0.3s;
+
+}
+
+.fixed-action-btn.spin-close .btn-large:before {
+
+  transition: transform 0.3s, opacity 0.3s;
+
+  content: " ";
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  width: 1.64rem;
+
+  height: 2px;
+
+  background: white;
+
+  margin-top: -2px;
+
+  margin-left: -0.82rem;
+
+  transform: rotate(0);
+
+  opacity: 0;
+
+}
+
+.fixed-action-btn.spin-close .btn-large:after {
+
+  transition: transform 0.3s, opacity 0.3s;
+
+  content: " ";
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  width: 1.64rem;
+
+  height: 2px;
+
+  background: white;
+
+  margin-top: -2px;
+
+  margin-left: -0.82rem;
+
+  transform: rotate(0);
+
+  opacity: 0;
+
+}
+
+.fixed-action-btn.spin-close.active .btn-large i {
+
+  opacity: 0;
+
+}
+
+.fixed-action-btn.spin-close.active .btn-large:before {
+
+  opacity: 1;
+
+  transform: rotate(135deg);
+
+}
+
+.fixed-action-btn.spin-close.active .btn-large:after {
+
+  opacity: 1;
+
+  transform: rotate(405deg);
+
+}
